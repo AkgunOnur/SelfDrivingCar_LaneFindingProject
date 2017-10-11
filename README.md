@@ -7,11 +7,6 @@
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road for both images and video stream
 
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
 ---
 
 ### Overview

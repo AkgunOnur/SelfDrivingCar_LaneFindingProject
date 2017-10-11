@@ -56,13 +56,11 @@ Edge points are found by Canny Edge Detector above. It is also needed to combine
 ### 2. Potential shortcomings
 
 
-One potential shortcoming would be that the algorithm is sensitive to noise which means that anything which has same color with lanes or adjacent to lane line might be considered as part of lane. Therefore, there might be little deviations in finding lane lines
+One potential shortcoming would be that the algorithm is sensitive to noise which means that anything which has same color with lanes or adjacent to lane line might be considered as part of lane. Therefore, there might be little deviations in finding lane lines.
 
-Another shortcoming could be finding the region of interest. The view of a car might be different than the previous. Thus, there might be a problem in generalization of the algorithm for every car
+Another shortcoming could be finding the region of interest. The view of a car might be different than the previous. Thus, there might be a problem in generalization of the algorithm for every car.
 
 
 ### 3. Possible improvements
 
-A possible improvement would be to take advantage of deep neural networks to improve the algorithm. Especially, it might be needed to make the algorithm less sensitive to noise and more flexible on determining the region of interest
-
-Another potential improvement could be to ...
+A possible improvement would be to take advantage of deep neural networks to improve the algorithm. Especially, it might be needed to make the algorithm less sensitive to noise and more flexible on determining the region of interest.
